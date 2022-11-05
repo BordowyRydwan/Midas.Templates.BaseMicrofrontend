@@ -5,8 +5,8 @@
     "ng": "ng",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build": "ng build BaseMicrofrontnend --configuration production",
-    "start": "ng s --project BaseMicrofrontend --disable-host-check --port 5001 --live-reload false"
+    "build": "ng build BaseMicrofrontend --configuration production",
+    "start": "ng s --project BaseMicrofrontend --disable-host-check --port 4001 --live-reload false"
   },
   "private": true,
   "dependencies": {

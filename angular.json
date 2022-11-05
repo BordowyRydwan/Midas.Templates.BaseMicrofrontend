@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
-            "outputPath": "dist/base-microfrontend",
+            "outputPath": "dist/app",
             "index": "src/index.html",
             "main": "src/main.single-spa.ts",
             "polyfills": "src/polyfills.ts",
@@ -31,7 +31,7 @@
               "libraryName": "BaseMicrofrontend",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:5001/"
+            "deployUrl": "http://localhost:4001/"
           },
           "configurations": {
             "production": {
