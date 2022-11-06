@@ -3,7 +3,7 @@
   "defaultVariables": null,
   "documentGenerator": {
     "fromDocument": {
-      "url": "https://localhost:7036/swagger/v1/swagger.json",
+      "url": "https://localhost:7034/swagger/v1/swagger.json",
       "output": null,
       "newLineBehavior": "Auto"
     }
@@ -69,7 +69,7 @@
       "enumNameGeneratorType": null,
       "serviceHost": ".",
       "serviceSchemes": [],
-      "output": "../src/services/message/message.service.ts",
+      "output": "../src/app/services/message/message.service.ts",
       "newLineBehavior": "LF"
     }
   }
