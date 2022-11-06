@@ -7,7 +7,7 @@ const MILLISECONDS_IN_DAY = 24 * 60 * 60 * 1000;
 @Injectable({
   providedIn: 'root'
 })
-export class CookiesService {
+export class CookieService {
   public getCookies(): Observable<object | null> {
     const entries = document.cookie
       .split(';')
