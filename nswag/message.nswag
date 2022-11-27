@@ -30,7 +30,7 @@
       "wrapDtoExceptions": false,
       "exceptionClass": "ApiException",
       "clientBaseClass": "BaseApiService",
-      "wrapResponses": false,
+      "wrapResponses": true,
       "wrapResponseMethods": [],
       "generateResponseClasses": true,
       "responseClass": "SwaggerResponse",

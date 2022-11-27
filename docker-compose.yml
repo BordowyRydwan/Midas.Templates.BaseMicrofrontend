@@ -1,8 +1,13 @@
-version: '3.3'
+version: '3.5'
 
 services:
-  angular-docker:
-    container_name: angular-docker-container
+  frontend:
+    container_name: base_frontend
     build: .
     ports:
       - '4001:80'
+
+networks:
+  default:
+    name: midas
+    external: true
